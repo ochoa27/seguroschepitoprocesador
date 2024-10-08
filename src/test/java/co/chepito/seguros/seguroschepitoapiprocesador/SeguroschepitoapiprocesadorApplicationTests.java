@@ -1,13 +1,13 @@
-package co.chepito.seguros.seguroschepitoprocesador;
+package co.chepito.seguros.seguroschepitoapiprocesador;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SeguroschepitoprocesadorApplicationTests {
+class SeguroschepitoapiprocesadorApplicationTests {
 
 	@Test
 	void contextLoads() {
 	}
-
 }
+

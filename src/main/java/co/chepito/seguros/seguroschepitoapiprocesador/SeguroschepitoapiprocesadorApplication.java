@@ -1,13 +1,13 @@
-package co.chepito.seguros.seguroschepitoprocesador;
+package co.chepito.seguros.seguroschepitoapiprocesador;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SeguroschepitoprocesadorApplication {
+public class SeguroschepitoapiprocesadorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SeguroschepitoprocesadorApplication.class, args);
+		SpringApplication.run(SeguroschepitoapiprocesadorApplication.class, args);
 	}
 
 }
