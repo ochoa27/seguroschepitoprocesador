@@ -32,6 +32,7 @@ public class ReceiverMessageNotificacion {
             data.ifPresent(notificacion -> {
                 switch (msg.getEvent()){
                     case "creacion":
+                        notificacionRepository.save(notificacionMapperEntity.toEntity(notificacion));
                     case "eliminacion":
                         notificacionRepository.deleteById(notificacion.getNotificacionId());
                     break;
