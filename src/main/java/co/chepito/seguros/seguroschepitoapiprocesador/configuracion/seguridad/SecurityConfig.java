@@ -39,6 +39,7 @@ public class SecurityConfig {
                                 .requestMatchers("/api/v1/rest/autenticacion/login").permitAll()
                                 .requestMatchers("/api/v1/rest/usuarios").permitAll()
                                 .requestMatchers("/api/v1/rest/usuarios/dummy").permitAll()
+                                .requestMatchers("/api/v1/rest/usuarios/listausarios").permitAll()
                                 .requestMatchers("/api/v1/cotizacion/dummy-solicitud", "/api/v1/cotizacion/dummy").permitAll()
                                 .anyRequest().authenticated()
                 )
